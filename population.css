@@ -1,0 +1,72 @@
+#heading h1 {
+  text-align: center;
+  font-family: Tahoma;
+  color: #FFD700;
+  text-shadow: 3px 2px black;
+}
+
+#heading ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#heading li {
+  float: none;
+}
+
+#heading li a {
+  display: block;
+  font-family: Tahoma;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px black;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#heading li a:hover:not(.active) {
+    background-color: #111;
+}
+
+#heading .active {
+  background-color: #FFD700;
+}
+
+html {
+  background-color: black;
+}
+
+h2 {
+  text-align: center;
+  font-family: Tahoma;
+  color: #FFD700;
+  text-shadow: 3px 2px black;
+  font-size: 2em;
+}
+
+.first-tiger-pic, img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#population p {
+  text-align: left;
+  color: #FFD700;
+  font-size: 1.25em;
+}
+
+#population li {
+  text-align: justify;
+  color: white;
+  font-size: 1.50em;
+}
+
+footer, a {
+  text-align: center;
+  color: white;
+}

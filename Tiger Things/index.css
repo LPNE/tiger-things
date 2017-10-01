@@ -1,0 +1,63 @@
+html {
+  background-image: url(images/Tiger-Stripes-Pattern.png);
+}
+
+.heading {
+  text-align: center;
+  font-family: Tahoma;
+  color: #FFD700;
+  text-shadow: 3px 2px black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+  background-color: #FFD700;
+}
+
+h2 {
+  text-align: center;
+  font-family: Tahoma;
+  color: #FFD700;
+  text-shadow: 3px 2px black;
+  font-size: 2em;
+}
+
+.home-info {
+  text-align: center;
+  color: white;
+  font-size: 1.50em;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 100%) {
+  html {
+    background-image: url(images/Tiger-Stripes-Pattern.png);
+  }
+}
+
+footer, a {
+  text-align: center;
+  color: white;
+}
